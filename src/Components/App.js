@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
 import Header from './Header'
+import Footer from './Footer'
 
-export default function App() {
+// Functional Component
+function App() {
   return (
     <div className='Greeting'>
       <Header />
-      {/* <Comp1 /> */}
+      <Footer />
     </div>
   )
 }
+export default App
