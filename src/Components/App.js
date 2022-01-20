@@ -7,7 +7,7 @@ import Cards from './Cards'
 // Functional Component
 function App() {
   return (
-    <div className='Greeting'>
+    <div className='info'>
       <Header />
       <Cards name='Dario' heroName='Software Engineer' />
       <Cards name='Chely' heroName='Nurse' />
