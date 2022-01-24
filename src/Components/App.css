@@ -1,18 +1,19 @@
 /* Header */
 
 .header {
-    background-color: #333;
+    background-color: #2f303a;
     overflow: hidden;
+    text-align: center;
+    padding: 7px;
 }
 
 
 /* Style the links inside the navigation bar */
 
 .header a {
-    float: left;
+    /* float: left; */
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 100px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -21,8 +22,18 @@
 /* Change the color of links on hover */
 
 .header a:hover {
-    background-color: #ddd;
+    background-color: #cddeee;
     color: black;
+}
+
+
+/* Blog Name */
+
+.blogname {
+    background-color: #cddeee;
+    /* padding: 30px;
+    font-size: 40px; */
+    text-align: center;
 }
 
 
@@ -33,7 +44,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #2f303a;
     color: white;
     text-align: center;
+    padding: 7px;
 }
