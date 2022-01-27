@@ -22,9 +22,16 @@ function App() {
         <BlogName />
       </div>
       <div className='titleheading'>
-        <TitleHeading />
-        <TitleHeading />
-        <TitleHeading />
+        <TitleHeading
+          title='Title Heading'
+          description='Title description'
+          img='image here'
+          text='Some text...'
+          text2='Sunt in culpa qui officia deserunt mollit anim id est laborum
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          exercitation ullamco.'
+        />
       </div>
       <div className='aboutme'>
         <AboutMe />

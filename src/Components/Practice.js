@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Practice = (props) => {
+const Practice = () => {
   return (
     <div>
-      <h4>{props.fName}</h4>
-      <h4>{props.lName}</h4>
-      <h4>{props.age}</h4>
+      <h1>{props.name}</h1>
+      <h2>{props.description}</h2>
+      <h3>{props.price}</h3>
     </div>
   )
 }
