@@ -1,48 +1,25 @@
 import React from 'react'
 import './App.css'
-import Header from './Header'
-import Footer from './Footer'
-import BlogName from './BlogName'
-import Practice from './Practice'
-import TitleHeading from './TitleHeading'
-import AboutMe from './AboutMe'
+import Products from './Products'
 
-// Functional Component
-function App() {
-  // Here is where the JS code is written
-  // const fName = 'Dario'
-  // const lName = 'del Rio'
-  // const age = '27'
+const App = () => {
+  // These are the chacracteristics of the items
+  var name = 'Philips 238G4DHSD/00'
+  const itemNumber = 'Item No. SC10316'
+  const description = '38G4DHSD/00 | Philips | Black | 37 | 2012 | Box 1123 |'
+  var price = 156
+
   return (
-    <div className='App'>
-      <div className='header'>
-        <Header />
-      </div>
-      <div className='blogname'>
-        <BlogName />
-      </div>
-      <div className='titleheading'>
-        <TitleHeading
-          title='Title Heading'
-          description='Title description'
-          img='image here'
-          text='Some text...'
-          text2='Sunt in culpa qui officia deserunt mollit anim id est laborum
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco.'
-        />
-      </div>
-      <div className='aboutme'>
-        <AboutMe />
-      </div>
-      {/* <div className='practice'>
-        <Practice fName={fName} lName={lName} age={age} />
-      </div> */}
-      <div className='footer'>
-        <Footer />
-      </div>
+    <div className='title'>
+      <h1>TV's & Projectors</h1>
+      <Products
+        name={name}
+        itemNumber={itemNumber}
+        description={description}
+        price={price}
+      />
     </div>
   )
 }
+
 export default App

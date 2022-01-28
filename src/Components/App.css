@@ -1,90 +1,10 @@
-/* Header */
-
-.header {
-    background-color: #2f303a;
-    overflow: hidden;
-    text-align: center;
-    padding: 7px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-/* Style the links inside the navigation bar */
-
-.header a {
-    /* float: left; */
-    color: #f2f2f2;
-    padding: 100px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-
-/* Change the color of links on hover */
-
-.header a:hover {
-    background-color: #cddeee;
-    color: black;
-}
-
-
-/* Blog Name */
-
-.blogname {
-    background-color: #cddeee;
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    margin: 20px;
-}
-
-
-/* Left column */
-
-.leftcolumn {
-    float: left;
-    width: 70%;
-}
-
-.cards {
-    background-color: #cddeee;
-    padding: 20px;
-    margin: 20px;
-}
-
-
-/* Right column */
-
-.rightcolumn {
-    float: left;
-    width: 25%;
-    padding-left: 20px;
-}
-
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
-
-/* image */
-
-.img {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
-
-/* Footer */
-
-.footer {
-    overflow: hidden;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #2f303a;
-    color: white;
-    text-align: center;
-    padding: 7px;
+h1 {
+    background-color: aliceblue;
+    padding: 2px;
 }
