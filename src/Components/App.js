@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Products from './Products/Products'
 import Reviews from './Products/Reviews'
+import UserGreeting from './UserGreeting'
 
 const App = () => {
   // These are the chacracteristics of the items, First product
@@ -48,6 +49,10 @@ const App = () => {
       <Reviews name={secondCustomer} comment={comment2} />
       <br />
       <Reviews name={thirdCustomer} comment={comment3} />
+
+      <div>
+        <UserGreeting />
+      </div>
     </div>
   )
 }
